@@ -28,3 +28,36 @@
 	font-size: 100px;
 	font-family: "Roboto";
 }
+
+.sub-title
+{
+	color: #F3E94C;
+	font-family: Roboto;
+	font-weight: 300px;
+	font-style: italic;
+	text-align: center;
+	font-size: 75px;
+}
+
+.header-cta
+{
+
+	color: #F3E94C;
+	background-color: #2A30A0;
+	width: 40%;
+	height: 200px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 30px;
+	transition: width 2s;
+
+}
+
+
+.header-cta:hover
+{
+	background-color: #0D1164;
+	color: #14927D;
+	width: 50%;
+
+}
