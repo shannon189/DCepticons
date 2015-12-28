@@ -1,5 +1,1 @@
-function addThese(num1, num2)
-{
-	var sum = num1 % num2;
-	return sum;
-}
+document.getElementById("demo").innerHTML = 5 + 4;
