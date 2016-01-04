@@ -1,0 +1,7 @@
+.side-bar
+{
+	background-color:blue;
+	width:100px;
+	height:calc(100% + 2000px);
+	float:right;
+}
