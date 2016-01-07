@@ -3,6 +3,7 @@
 
 @import url("2-modules/header-main.css");
 @import url("2-modules/body-sections.css");
+@import url("2-modules/body-content.css");
 
 @import url("1-tools/cta-button.css");
 @import url("1-tools/body-section-sizes.css");

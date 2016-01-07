@@ -3,3 +3,11 @@
 	width: 100%;
 	height: 400px;
 }
+
+.footer-size
+{
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background-color: blueviolet;
+}
