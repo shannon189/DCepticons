@@ -3,6 +3,11 @@
 	color: yellow;
 	float: left;
 	font-family: Roboto;
-	font-size: 75px;
+	font-size: 60px;
 	padding: 20px;
+}
+
+p
+{
+	clear: left;
 }

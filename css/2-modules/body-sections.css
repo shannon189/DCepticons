@@ -2,7 +2,13 @@
 {
 	background-image: url("../../assets/img/body-background-1.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
+	transition: height 4s;
+}
+
+.section-1:hover
+{
+	height: 800px;
 }
 
 .section-2
