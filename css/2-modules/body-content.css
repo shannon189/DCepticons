@@ -5,9 +5,37 @@
 	font-family: Roboto;
 	font-size: 60px;
 	padding: 20px;
+	padding-top: 100px;
 }
 
-p
+.body-photo
 {
-	clear: left;
+	width: 300px;
+	height: 300px;
+	border: 10px #2A30A0 solid;
+	border-radius: 50%;
+}
+
+.body-photo:hover
+{
+	border-color: #0D1164;
+}
+
+.size1
+{
+	position: relative;
+	top: 750px;
+	right: 250px;
+}
+.size2
+{
+	position: relative;;
+	top: 1150px;
+	right: 250px;
+}
+.size3
+{
+	position: relative;;
+	top: 1550px;
+	right: 250px;
 }

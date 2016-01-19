@@ -1,7 +1,33 @@
 .side-bar
 {
-	background-color:blue;
+	background-color: #771A98;
 	width:200px;
-	height:calc(100% + 2000px);
+	height:calc(100% + 1600px);
 	float:right;
+}
+
+.aside
+{
+	position: fixed;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+li
+{
+	list-style-type: none;
+}
+
+li:hover
+{
+	list-style-type: circle;
+}
+.link-aside
+{
+	color: #E6DA20;
+	font-size: 30px;
+}
+
+.link-aside:visited
+{
+	color: #E6DA20;
 }
