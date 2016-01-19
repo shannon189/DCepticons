@@ -21,6 +21,12 @@ li:hover
 {
 	list-style-type: circle;
 }
+
+li:active
+{
+	list-style-type: disc;
+}
+
 .link-aside
 {
 	color: #E6DA20;
@@ -30,4 +36,15 @@ li:hover
 .link-aside:visited
 {
 	color: #E6DA20;
+}
+
+.at-page
+{
+	list-style-type: disc;
+}
+
+.side-photo
+{
+	width: 100px;
+	height: 100px;
 }
