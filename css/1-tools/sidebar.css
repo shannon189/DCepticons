@@ -6,6 +6,11 @@
 	float:right;
 }
 
+.team-side
+{
+	height: 3200px;
+}
+
 .aside
 {
 	position: fixed;
