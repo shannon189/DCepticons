@@ -1,0 +1,58 @@
+.robot-title
+{
+      padding-top: 20px;
+      font-size: 60px;
+      font-family: Roboto;
+}
+
+.robot-photo
+{
+      width: 100%;
+      height: 500px;
+      background-image: url(../../assets/img/bcard.png);
+      background-size: 100% 100%;
+}
+
+.robot
+{
+      margin-left: 300px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 500px;
+      height: 400px;
+      border: 10px solid #2A30A0;
+}
+.robot:hover
+{
+      border-color: #0D1164;
+}
+
+.robot-desc
+{
+      width: 100%;
+      height: 600px;
+      background-color: #5D0D7A;
+      font-family: Roboto;
+      text-align: center;
+}
+
+.title1
+{
+      font-size: 40px;
+      color: #E6DA20;
+      padding-top: 20px;
+}
+
+.title2
+{
+      font-size: 30px;
+      color: #E6DA20;
+      padding-top: 20px;
+}
+
+.robot1
+{
+      font-size: 20px;
+      color: #F3E94C;
+      padding-top: 10px;
+}
