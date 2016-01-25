@@ -8,6 +8,8 @@
 @import url("1-tools/cta-button.css");
 @import url("1-tools/body-section-sizes.css");
 @import url("1-tools/sidebar.css");
+@import url("1-tools/popup.css");
+@import url("1-tools/popup-content.css");
 
 @import url("2-modules/contact-page.css");
 @import url("2-modules/team-page.css");

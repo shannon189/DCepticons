@@ -6,7 +6,7 @@
             <link rel="stylesheet" type="text/css" href="../css/main.css">
       </head>
       <body>
-		<div class="side-bar team-side">
+		<div class="side-bar team-side" id="aside">
 			<div class="aside">
 				<a href="../index.html"><img src="../assets/img/logo.jpg" class="side-photo"></a>
 				<ul>
@@ -26,28 +26,28 @@
                 <h3>Team Leader</h3>
             </div>
             <div class="team-people">
-                <img src="../assets/img/shannon.jpg" class="team-photo solo" alt="Team Leader Shannon Myers" id="me">
+                <img src="../assets/img/shannon.jpg" class="team-photo solo" alt="Team Leader Shannon Myers" id="shannon" onclick="animationStart(this.id)">
             </div>
             <div class="team-title">
                 <h3>Design</h3>
             </div>
             <div class="team-people">
-                <img src="../assets/img/devika.jpg" class="team-photo solo" alt="Designer Devika Dutt">
+                <img src="../assets/img/devika.jpg" class="team-photo solo" alt="Designer Devika Dutt" id="devika" onclick="animationStart(this.id)">
             </div>
             <div class="team-title">
                 <h3>Builders</h3>
             </div>
             <div class="team-people many-lines">
-                <img src="../assets/img/chris.jpg" class="team-photo" alt="Builder Chris Sanchez">
-                <img src="../assets/img/dakota.jpg" class="team-photo" alt="Builder Dakota Robles">
-                <img src="../assets/img/farhan.jpg" class="team-photo" alt="Builder Farhan Lakhani">
-                <img src="../assets/img/gus.jpg" class="team-photo" alt="Builder Gus Tucker">
-                <img src="../assets/img/hakeem.jpg" class="team-photo" alt="Builder Hakeem Wilson">
-                 <img src="../assets/img/jakob.jpg" class="team-photo" alt="Builder Jacob Slocumb">
-                 <img src="../assets/img/joseph.jpg" class="team-photo" alt="Builder Joseph Vaughns">
-                 <img src="../assets/img/kyle.jpg" class="team-photo" alt="Builder Kyle Nuckles">
-                 <img src="../assets/img/logan.jpg" class="team-photo" alt="Builder Logan Sweeney">
-                 <img src="../assets/img/tannis.jpg" class="team-photo" alt="Builder Tannis Ackleworth">
+                <img src="../assets/img/chris.jpg" class="team-photo" alt="Builder Chris Sanchez" id="chris" onclick="animationStart(this.id)">
+                <img src="../assets/img/dakota.jpg" class="team-photo" alt="Builder Dakota Robles" id="dakota" onclick="animationStart(this.id)">
+                <img src="../assets/img/farhan.jpg" class="team-photo" alt="Builder Farhan Lakhani" id="farhan" onclick="animationStart(this.id)">
+                <img src="../assets/img/gus.jpg" class="team-photo" alt="Builder Gus Tucker" id="gus" onclick="animationStart(this.id)">
+                <img src="../assets/img/hakeem.jpg" class="team-photo" alt="Builder Hakeem Wilson" id="hakeem" onclick="animationStart(this.id)">
+                 <img src="../assets/img/jakob.jpg" class="team-photo" alt="Builder Jakob Slocumb" id="jakob" onclick="animationStart(this.id)">
+                 <img src="../assets/img/joseph.jpg" class="team-photo" alt="Builder Joseph Vaughns" id="joseph" onclick="animationStart(this.id)">
+                 <img src="../assets/img/kyle.jpg" class="team-photo" alt="Builder Kyle Nuckles" id="kyle" onclick="animationStart(this.id)">
+                 <img src="../assets/img/logan.jpg" class="team-photo" alt="Builder Logan Sweeney" id="logan" onclick="animationStart(this.id)">
+                 <img src="../assets/img/tannis.jpg" class="team-photo" alt="Builder Tannis Ackleworth" id="tannis" onclick="animationStart(this.id)">
             </div>
             <div class="team-title">
                 <h3>Programmers</h3>
@@ -63,6 +63,48 @@
             <div class="footer-size" id="footer">
 			yo
 		</div>
-            <script type="text/javascript" src="../js/team-popup.js"></script>
+            <div id="blanket" style="display:none"></div>
+            <div id="shannont" style="display:none">
+                  <div id="shannontt" class="popup-close">X</div>
+                  <img src="../assets/img/shannon.jpg" class="popup-img" alt="Shannon">
+                  <h1 class="popup-head">Shannon Myers</h1><br/>
+                  <p class="popup-con">Grade: 11th</p>
+                  <p class="popup-con">Age: 16</p>
+                  <p class="popup-con">Years of Experience: 3</p>
+            </div>
+            <div id="devikat" style="display:none">
+                  <h1 id="devikatt">I am good.</h1>
+            </div>
+            <div id="christ" style="display:none">
+                  <h1 id="christt">I am good.</h1>
+            </div>
+            <div id="dakotat" style="display:none">
+                  <h1 id="dakotatt">I am good.</h1>
+            </div>
+            <div id="farhant" style="display:none">
+                  <h1 id="farhantt">I am good.</h1>
+            </div>
+            <div id="gust" style="display:none">
+                  <h1 id="gustt">I am good.</h1>
+            </div>
+            <div id="hakeemt" style="display:none">
+                  <h1 id="hakeemtt">I am good.</h1>
+            </div>
+            <div id="jakobt" style="display:none">
+                  <h1 id="jakobtt">I am good.</h1>
+            </div>
+            <div id="josepht" style="display:none">
+                  <h1 id="josephtt">I am good.</h1>
+            </div>
+            <div id="kylet" style="display:none">
+                  <h1 id="kylett">I am good.</h1>
+            </div>
+            <div id="logant" style="display:none">
+                  <h1 id="logantt">I am good.</h1>
+            </div>
+            <div id="tannist" style="display:none">
+                  <h1 id="tannistt">I am good.</h1>
+            </div>
+            <script type="text/javascript" src="../js/popup.js"></script>
       </body>
 </html>
