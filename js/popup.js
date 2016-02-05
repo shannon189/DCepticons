@@ -1,6 +1,5 @@
-function animationStart(id)
-{
-      window.onwheel = function(){ return false; };
+function animationStart (id) {
+      window.onwheel = function(){ return false };
       document.body.style.overflow = 'hidden';
 
       var blanket = document.getElementById("blanket");
